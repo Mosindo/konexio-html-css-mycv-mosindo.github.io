@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "poppins";
+  src: url("./../fonts/poppins.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("./../fonts/Poppins-Medium.ttf");
+  font-style: bold;
+}
+
+/*hearder*/
+
+header {
+  background-color: #0475ba;
+  font-family: poppins , sans-serif;
+  color: #ffffff;
+  padding: 16px;
+  height: 72px;
+  display: flex;
+}
+h1{
+  font-style: bold;
+  font-size: 1.5rem;
+}
+nav ul {
+  margin-left: 80px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 4spx;
+  margin-left: 16px;
+}
+nav ul li a {
+  display:flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+	font-size: large;
+	background-color:transparent;
+	text-decoration:underline
+}
+/*main*/
+.blue {
+  background-color: #0475ba;
+  height: 300px;
+  font-family: poppins , sans-serif;
+  color: #ffffff;
+  padding: 32px;
+}
+
+.white {
+  height: 300px;
+  font-family: poppins ,sans-serif;
+  padding: 32px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 30%;
+  box-shadow: 8px 8px 0px #aaa;
+}
+/* intro*/
+.intro {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.items-1 {
+  height: 200px;
+  width: 300px;
+  margin: 32px;
+  font-family: poppins ,sans-serif;
+}
+
+.items-1 h2{
+  font-size: 1.5rem;
+}
+
+.items-1 p{
+  color:#0475ba;
+  margin-top: 32px;
+}
+
+.items-2 {
+  height: 200px;
+  width: 300px;
+  margin-top: 32px;
+}
+
+/*présentation*/
+
+#profile h2 {
+  margin-left: 400px;
+  font-size: 1.5rem;
+}
+
+#profile ul {
+  margin-left: 400px;
+  margin-top: 64px;
+  list-style: inside;
+}
+
+/*éxperience*/
+#experience {
+  margin-left: 400px;
+}
+
+#experience h2 {
+  color: #0475ba;
+  margin-bottom: 16px;
+}
+.box-experience{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-experience P{
+  font-size: 1.2;
+}
+/*formation*/
+#formation h2,
+#formation ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+  margin-left: 400px;
+  list-style: none;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#formation ul li{
+  display: flex; 
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+/*Passion*/
+#passion h2,
+#passion p {
+  margin-left: 400px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#passion h2 {
+  color: #0475ba;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: start;
+  height: 300px;
+  background-color: #0475ba;
+  color: #ffffff;
+  font-family: poppins;
+  height: 75px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+.blog{
+  margin-left: 32px;
+}
+
+.link {
+  margin-left: 192px;
+}
+
+.link ul{
+  display: flex;
+  flex-direction: column;
+}
+.link ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: poppins , sans-serif;
+}
+
+.link ul li a:hover {
+	font-size: large;
+	background-color:transparent;
+	text-decoration:underline
+}
+.fa-twitter-square{
+  font-size: 1.3rem;
+}
